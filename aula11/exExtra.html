@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>VERIFICADOR DE NACIONALIDADE</h1>
+    Insira a sua nacionalidade: <input type="text" name="nacionalidade" id="nac">
+    <input type="button" value="verifique" onclick="verificar()">
+
+    <div id="res"></div>
+
+    <script>
+        function verificar(){
+            var nac = document.getElementById('nac')
+            var nacionalidade = nac.value
+
+            if(nacionalidade == 'brasileiro'){
+                res.innerHTML = `Você é ${nacionalidade}, portanto de origem nacional`
+            }else{
+                res.innerHTML = `Você é ${nacionalidade}, portanto estrangeiro :)` 
+            }
+        }
+
+
+    </script>
+</body>
+</html>
