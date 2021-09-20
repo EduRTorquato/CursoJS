@@ -1,0 +1,55 @@
+header{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background: rgb(1, 1, 67);
+    font: normal 15pt Arial;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(72, 71, 71);
+}
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+img{
+    width: 300px;
+    margin-top: 15pt;
+}
+
+.tab{
+    
+    background-color:blueviolet;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgb(72, 71, 71);
+    font-size: pt;
+    font-weight: 700;
+    color: white;
+    text-align:unset;
+    background-image: url(https://cdn.awsli.com.br/1000x1000/1264/1264896/produto/108650747/dac744b896.jpg);
+
+}
+.btn{
+    margin-bottom: 15pt;
+    border-radius: 15px;
+    border-top-color: cornflowerblue;
+    width: 100px;
+    height: 30px;
+}
+.btn1{
+    margin-bottom: 15pt;
+    border-radius: 15px;
+    border-top-color: red;
+    width: 100px;
+    height: 30px;
+}
